@@ -1,0 +1,168 @@
+.contacts-page {
+  padding: 3rem 0;
+  min-height: 80vh;
+  background: #f8f9fa;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #1a1a1a;
+}
+
+.contact-info-card,
+.contact-form-card,
+.map-card {
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 102, 204, 0.08);
+  border: none;
+}
+
+.contact-info-card .card-header,
+.contact-form-card .card-header {
+  background: white;
+  border-bottom: 2px solid #f0f0f0;
+  padding: 1.5rem;
+}
+
+.contact-info-card .card-header h3,
+.contact-form-card .card-header h3 {
+  color: #1a1a1a;
+}
+
+.contact-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.contact-item:last-child {
+  border-bottom: none;
+}
+
+.contact-item i {
+  font-size: 2rem;
+  color: #0066cc;
+  width: 40px;
+  text-align: center;
+}
+
+.contact-item h5 {
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.contact-item p {
+  color: #666;
+  margin: 0;
+}
+
+.contact-social {
+  padding-top: 1.5rem;
+}
+
+.contact-social h5 {
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f0f0f0;
+  color: #666;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+
+.social-links a:hover {
+  background: linear-gradient(135deg, #0066cc, #0d47a1);
+  color: white;
+  transform: translateY(-3px);
+}
+
+.map-placeholder {
+  height: 300px;
+  background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+
+.map-placeholder i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.map-placeholder p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.map-placeholder span {
+  font-size: 0.9rem;
+}
+
+.success-message {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.success-message i {
+  font-size: 5rem;
+  color: #28a745;
+  margin-bottom: 1rem;
+}
+
+.success-message h4 {
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.success-message p {
+  color: #999;
+}
+
+.btn-send-message {
+  background: linear-gradient(135deg, #0066cc, #0d47a1);
+  border: none;
+  padding: 15px 35px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.btn-send-message:hover {
+  background: linear-gradient(135deg, #0d47a1, #0a3d8a);
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.8rem;
+  }
+  
+  .contact-item {
+    padding: 1rem 0;
+  }
+  
+  .contact-item i {
+    font-size: 1.5rem;
+  }
+}
